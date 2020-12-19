@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    // TS follows ECMAScript 5
+    "target": "ES5",
+    // TS modules as ES2015 modules
+    "module": "ES2015",
+    // Enable JSX format
+    "jsx": "react",
+    "outDir": "dist",
+    "moduleResolution": "Node",
+    "lib": [
+      "ES2020",
+      "DOM"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "compileOnSave": false
+}
